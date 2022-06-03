@@ -1,0 +1,39 @@
+<cfgs_dam>
+	<modulo_lmsgi>
+		<nombre> </nombre>
+		<obligatorio></obligatorio>
+		<modulo_lmsgi_duracion>
+			<horas_semana></horas_semana>
+			<fechas>
+				<inicio_fecha>
+					<dia></dia>
+					<mes></mes>
+					<año></año>
+				</inicio_fecha>
+				<final_fecha>
+					<dia></dia>
+					<mes></mes>
+					<año></año>
+				</final_fecha>
+			</fechas>
+		</modulo_lmsgi_duracion>
+		<alumnos>
+			<alumno id="1">
+				<nombre></nombre>
+				<primer_apellido></primer_apellido>
+				<segundo_apellido></segundo_apellido>
+				<nif_numero></nif_numero>
+				<telefono_numero></telefono_numero>
+				<correo_email></correo_email>
+				<direccion>
+					<calle tipo="calle"></calle>
+					<calle_numero></calle_numero>
+					<ciudad></ciudad>
+					<codigo_postal></codigo_postal>
+				</direccion>
+				<cualificacion></cualificacion>
+				<asistencia_faltas></asistencia_faltas>
+			</alumno> 
+</alumnos>
+	</modulo_lmsgi>
+</cfgs_dam>
