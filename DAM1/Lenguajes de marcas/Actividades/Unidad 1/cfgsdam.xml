@@ -1,39 +1,55 @@
 <cfgs_dam>
 	<modulo_lmsgi>
-		<nombre> </nombre>
-		<obligatorio></obligatorio>
+		<nombre>Lenguajes de Marcas y Sistemas de Gestión de  Información</nombre>
+		<obligatorio>Si</obligatorio>
 		<modulo_lmsgi_duracion>
-			<horas_semana></horas_semana>
+			<horas_semana>4</horas_semana>
 			<fechas>
 				<inicio_fecha>
-					<dia></dia>
-					<mes></mes>
-					<año></año>
+					<dia>15</dia>
+					<mes>septiembre</mes>
+					<año>2010</año>
 				</inicio_fecha>
 				<final_fecha>
-					<dia></dia>
-					<mes></mes>
-					<año></año>
+					<dia>30</dia>
+					<mes>Junio</mes>
+					<año>2011</año>
 				</final_fecha>
 			</fechas>
 		</modulo_lmsgi_duracion>
 		<alumnos>
 			<alumno id="1">
-				<nombre></nombre>
-				<primer_apellido></primer_apellido>
-				<segundo_apellido></segundo_apellido>
-				<nif_numero></nif_numero>
-				<telefono_numero></telefono_numero>
-				<correo_email></correo_email>
+				<nombre>Ana</nombre>
+				<primer_apellido>Fernández</primer_apellido>
+				<segundo_apellido>Gutiérrez</segundo_apellido>
+				<nif_numero>16965696L</nif_numero>
+				<telefono_numero>789654321</telefono_numero>
+				<correo_email>ana.fdezgtrrez@hotmail.com</correo_email>
 				<direccion>
-					<calle tipo="calle"></calle>
-					<calle_numero></calle_numero>
-					<ciudad></ciudad>
-					<codigo_postal></codigo_postal>
+					<calle tipo="calle">El Percebe</calle>
+					<calle_numero>13</calle_numero>
+					<ciudad>Santander</ciudad>
+					<codigo_postal>39302</codigo_postal>
 				</direccion>
 				<cualificacion></cualificacion>
 				<asistencia_faltas></asistencia_faltas>
-			</alumno> 
-</alumnos>
+			</alumno>
+			<alumno id="2">
+				<nombre>Pepito</nombre>
+				<primer_apellido>Grillo</primer_apellido>
+				<segundo_apellido></ segundo_apellido>
+				<nif_numero>98765432H</nif_numero>
+				<telefono_numero>656566555</telefono_numero>
+				<correo_email>yhyh@yahoo.com</correo_email>
+				<direccion>
+					<calle tipo="avenida">El Pez</calle>
+					<calle_numero>5</calle_numero>
+					<ciudad>Suances</ciudad>
+					<codigo_postal>39401</codigo_postal>
+				</direccion>
+				<cualificacion>Apto</cualificacion>
+				<asistencia_faltas_numero>0</asistencia_faltas_numero>
+			</alumno>
+		</alumnos>
 	</modulo_lmsgi>
 </cfgs_dam>
