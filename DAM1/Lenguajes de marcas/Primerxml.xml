@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<agenda>
+	<contacto n="1">
+	<nombre>Nombrerandom</nombre>
+	<apellido_primero>Apellidorandom</apellido_primero>
+	<apellido_segundo>Apellidorandom</apellido_segundo>
+	<direccion>
+		<calle> Calle genérica</calle>
+		<calle_numero> 11 bajo b</calle_numero> 
+		<localidad>generica</localidad>
+		<provincia>generica</provincia>
+	</direccion>
+	<telefonos>
+		<casa_telf>993558585</casa_telf >
+		<movil_telf>963852741</movil_telf>
+		<trabajo_telf>963147852</trabajo_telf>
+	</telefonos>
+	</contacto>
+</agenda>
