@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    
+        <title>Survey</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
+        <style>
+                      
+            p{
+            }
+                                    
+            h3, form{
+                background-color:#F6B97C;
+                text-align: center;
+                Padding: 2rem;
+                margin: 2rem;
+                           }
+          
+                    
+            input[type="email"] {
+                border-radius: 5px;
+                height: 30px;
+                width: 100%;
+                border: 1px solid #334b63;
+                margin-top: 0.5rem;
+                padding: 1px 1px 1px 5px;
+}
+            input[type="number"] {
+                border-radius: 5px;
+                height: 25px;
+                width: 100%;
+                border: 1px solid #334b63;
+                margin-top: 0.5rem;
+                padding: 1px 1px 1px 5px;
+}
+            input[type="text"] {
+                border-radius: 5px;
+                height: 25px;
+                width: 100%;
+                border: 1px solid #334b63;
+                margin-top: 0.5rem;
+                padding: 1px 1px 1px 5px;
+}
+
+            button[type="submit"] {
+                display: block;
+                border-radius: 5px;
+                background: rgba(49, 255, 63, 0.5);
+                width: 100%;
+                height: 30px;
+                border: 1px solid #334b63;
+                margin-top: 0.5rem;
+}
+            select {
+                width: 100%;
+                height: 25px;
+                border-radius: 2px;
+              }
+              #comments {
+                border-radius: 5px;
+                height: 80px;
+                width: 100%;
+                border: 1px solid #334b63;
+                display: block;
+                padding: 1px 1px 1px 5px;
+}
+        </style>
+    </head>
+    <body>
+     <h3>Reserva de hotel:</h3>
+        <form name="segundo formulario" action="matricula.php" method="post">
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="usuario" size="30" maxlengh="20" placeholder="Escriba aquí el nombre" required=""></input>
+            <label for="Apellidos">Apellido</label>
+            <input type="text" name="Apellidos" size="30" maxlengh="30" placeholder="Escriba aquí sus apellidos" required=""></input>
+            <label for="Telefono">Telefono</label>
+            <input type="text" name="Telefono" size="12" maxlengh="12" placeholder="escriba su telefono" required=""></input>
+            <label for="Numero de noches">Numero de noches</label>
+            <input type="number" name="Numero de noches" min="1" max="100" placeholder="Cuantas noches?" required=""></input>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"></input>
+            
+            <p>Fecha de nacimiento:</p>
+            <select>
+                <option>dia</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select>
+                <option>mes</option>
+                <option>Enero</option>
+                <option>Febrero</option>
+                <option>Marzo</option>
+                <option>Abril</option>
+                <option>Mayo</option>
+                <option>Junio</option>
+                <option>Julio</option>
+                <option>Agosto</option>
+                <option>Septiembre</option>
+                <option>Octubre</option>
+                <option>Noviembre</option>
+                <option>Diciembre</option>
+            </select> 
+            
+            <p>Opciones extra</p>
+            <label for="simple">habitacion simple</label>
+            <input type="radio" name="simple"/>
+            <label for="doble">habitacion doble</label>
+            <input type="radio" name="doble"/>
+            <label for="matrimonio">habitacion matrimonio</label>
+            <input type="radio" name="matrimonio"/>
+
+
+    
+            
+           
+            <p>Desea desayuno, comida o cena supletoria?</p>
+            <table>  
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos"/> Desayuno
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/> Comida
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Cena supletoria
+                    </td>
+                </tr>
+            </table>
+            
+            <p>Comentarios:</p>
+            
+            <textarea id="comments" rows="2" cols="50"></textarea>
+               
+              
+        <p>Pulsa el botón de "enviar" para formalizar la matrícula o el boton de "restablecer" para limpiar el formulario.</p>
+        <button type="button">Enviar</button>
+        <input type="reset" name="Reset"></input>
+     
+    </form>  
+        
+        </body>   
+            
+</html>
